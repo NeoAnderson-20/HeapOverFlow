@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--mapper模板!!!-->
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="dao.UserMapper">      <!--//绑定要实现的接口-->
+<!--    <insert id=""></insert>-->
+
+<!--    实现接口里的同名方法, resulttype为返回值-->
+    <select id="getUserList" resultType="myBatisTest.User">      <!--要写网站类地址-->
+        select * from javatest.web;
+    </select>
+
+<!--    指定查询方法,parameterType指参数类型, 语法看下面语句-->
+    <select id="getByname" parameterType="String" resultType="myBatisTest.User">
+        select  * from javatest.web where username =#{username}
+    </select>
+
+    <!--插入操作例子-->
+    <insert id="addUser" parameterType="myBatisTest.User">
+        insert into javatest.web (username,password) values (#{username},#{password});
+    </insert>
+    <!--更新操作例子-->
+    <update id="update" parameterType="myBatisTest.User">
+        update javatest.web set username=#{username},password=#{password} where username =#{username}
+    </update>
+
+    <!--删除操作例子-->
+    <delete id="del" parameterType="myBatisTest.User">
+        delete from javatest.web where username = #{username}
+    </delete>
+
+</mapper>

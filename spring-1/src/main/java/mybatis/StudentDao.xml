@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--mapper模板!!!-->
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.StudentDao">      <!--选取要实现的接口-->
+    <insert id="insertStudents" >
+
+    </insert>
+    <select id="selectStudents" resultType="mybatis.Student">
+        select * from web;
+    </select>
+</mapper>

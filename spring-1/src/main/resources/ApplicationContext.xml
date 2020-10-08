@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<import resource="classpath:beans.xml"></import>   <!--引入另一个xml配置实现多配置,可使用通配符xxx*一次性引入-->
+<!--            //带参数的对象创建-->
+    <bean id="app02" class="spring_01.Intro.App02" autowire="byName">         <!-- autowrite="byName"意思是用下文中id和参数名相同的类来构造-->
+        <!-- autowire ="byType" 自动用与参数同一类的类来构造(父子类,接口实现类) -->
+        <property name="id" value="7"></property>            <!--类中一定要有set方法!!!,Spring就是用set方法来设置参数,先调用无参构造-->
+        <property name="name" value="Taylor"></property>       <!--set注入(形参),构造后再调用set来设置值-->
+<!--        <property name="info" ref="app03"></property>    ①一种嵌套类构造方法,引用自下文的app03-->
+
+    </bean>
+    <bean id="info" class="spring_01.Intro.App03">
+        <property name="id" value="SCU"></property>
+        <property name="location" value="Suzhou"></property>
+    </bean>
+
+</beans>

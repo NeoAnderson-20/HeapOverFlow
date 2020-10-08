@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1aa5592d-3150-4117-a8e5-0b90a2fd1b8a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\HP\.m2\repository" />
+        <option name="userSettingsFile" value="C:\Users\HP\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iWp0W1SVGEQ19VC0FKmCFxxvkz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="springweb_01" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="springweb_01" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1aa5592d-3150-4117-a8e5-0b90a2fd1b8a" name="Default Changelist" comment="" />
+      <created>1602032979627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602032979627</updated>
+      <workItem from="1602032981004" duration="1183000" />
+      <workItem from="1602034254932" duration="235000" />
+      <workItem from="1602034503195" duration="72000" />
+      <workItem from="1602034587547" duration="167000" />
+      <workItem from="1602034771630" duration="117000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="976" y="332" key="FileChooserDialogImpl" timestamp="1602034723416">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="976" y="332" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1602034723416" />
+    <state width="700" height="243" key="GridCell.Tab.0.bottom" timestamp="1602034888123">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="700" height="243" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1602034888123" />
+    <state width="700" height="243" key="GridCell.Tab.0.center" timestamp="1602034888123">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="700" height="243" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1602034888123" />
+    <state width="700" height="243" key="GridCell.Tab.0.left" timestamp="1602034888122">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="700" height="243" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1602034888122" />
+    <state width="700" height="243" key="GridCell.Tab.0.right" timestamp="1602034888123">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="700" height="243" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1602034888123" />
+    <state x="697" y="223" key="SettingsEditor" timestamp="1602034730842">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="697" y="223" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1602034730842" />
+    <state x="604" y="238" key="new project wizard" timestamp="1602034887718">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="604" y="238" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1602034887718" />
+  </component>
+</project>

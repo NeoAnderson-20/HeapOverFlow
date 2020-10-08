@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--声明bean,即通知Spring创建某个类的对象
+         id : 对象的自定义唯一名称,以此来找到对象
+         class: 类的全限定名称,不能是接口
+         Spring框架中用一个map来存储对象(id:new 对象())
+         一个bean声明一个对象-->
+    <bean id="helloword" class="spring_01.Intro.App"></bean>
+    <bean id="helloword2" class="spring_01.Intro.App01"></bean>
+    <bean id="mydate" class="java.util.Date"></bean>    <!--   可以创建内建类-->
+
+
+    <!--声明目标对象,切片类对象,自动代理生成器-->
+    <bean id="someservice" class="Aspectj.SomeServiceImpl"></bean>
+    <bean id="myAspect" class="Aspectj.MyAspect"></bean>
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>     <!--该标签会把Spring容器中的所有对象都生成代理对象-->
+</beans>
+
